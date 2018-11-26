@@ -10,6 +10,9 @@ all.addEventListener("click",function(){
     
     for ( var i =0; i <tous.length; i++){
         document.querySelectorAll(".skills")[i].style.display = "initial";
+        all.classList.add('btn-clique');
+        langage.classList.remove('btn-clique');
+        design.classList.remove('btn-clique');
        
     }
 })
@@ -25,6 +28,9 @@ langage.addEventListener("click", function () {
       
       if (skillslangage[i].classList.contains("langage")) {
          document.querySelectorAll(".skills")[i].style.display="block";
+         all.classList.remove('btn-clique');
+         langage.classList.add('btn-clique');
+         design.classList.remove('btn-clique');
       } 
       else {
          document.querySelectorAll(".skills")[i].style.display="none"; }
@@ -46,6 +52,9 @@ design.addEventListener("click", function () {
       
       if (skillsDESIGN[i].classList.contains("design")) {
          document.querySelectorAll(".skills")[i].style.display="block";
+         all.classList.remove('btn-clique');
+         langage.classList.remove('btn-clique');
+         design.classList.add('btn-clique');
       } 
       else {
          document.querySelectorAll(".skills")[i].style.display="none"; }
