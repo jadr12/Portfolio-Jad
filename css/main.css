@@ -9622,7 +9622,7 @@ button {
   display: inline-block;
   width: 100%;
   height: 5px;
-  z-index: -1;
+  z-index: -1i;
 }
 
 .langage1::after {
@@ -9766,7 +9766,7 @@ h6 {
 .img {
   height: 105vh;
   width: 100%;
-  background-image: url("../img/shoot5.jpg");
+  background-image: url("../img/shoot.jpg");
   background-size: 100%;
   background-position-y: 50%;
   background-position-x: 40%;
