@@ -17,12 +17,13 @@
     <nav>
       <div class="row test">
         <div class="col-6">
-          <span>Logo</span>
+          <span>
+            <a href="#section1"><img src="img/logojad.png" alt="logojad"></a>
+          </span>
         </div>
         <div class="col-6 text-center">
-          <div class="row ">
-            <div class="col-md-2 col-sm-12 text-white" id="class1"><span class="hov"><a href="#section1">HOME</span></a>
-            </div>
+          <div class="row navigation">
+            
             <div class="col-md-2 col-sm-12 text-white" id="class1"><span class="hov"><a href="#section2">ABOUT ME</span></a></div>
             <div class="col-md-2 col-sm-12 text-white" id="class1"><span class="hov"><a href="#section3">PORTFOLIO</span></a></div>
             <div class="col-md-2 col-sm-12 text-white" id="class1"><span class="hov"><a href="#section4">SERVICE</span></a></div>
@@ -32,7 +33,7 @@
       </div>
     </nav>
     <div class="carousel">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide carouselslider" data-ride="carousel">
 
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -51,14 +52,6 @@
             <div class="text"></div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
     </div>
   </header>
@@ -69,16 +62,21 @@
   <section class="section2" id="section2">
     <div class="container">
       <div class="row">
-        <div class="col-6" id="sect">
-          <div class="col-1-img"></div>
-          <div class="col-1-back"></div>
+        <div class="col-md-6 col-sm-12" id="sect">
+            <div class="col-1-img">
 
+            </div>
+            <div class="col-1-back">
+              
+            </div>
         </div>
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
           <h1 class="titre1 text-white">Jad Riahi</h1>
-          <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae doloremque, odio atque
+          <p class="text-white textaboutme">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae doloremque,
+            odio atque
             deserunt culpa rerum?</p>
-          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis alias commodi
+          <p class="text-white textaboutme1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis alias
+            commodi
             distinctio quos nulla neque voluptatibus reiciendis laudantium consectetur. Corporis blanditiis sunt
             atque assumenda fugit harum ad necessitatibus iusto, cumque amet consequatur, ullam fugiat ipsam?</p>
           <button type="button" class="btn btn-outline-light" id="btn1">All</button><button type="button" class="btn btn-outline-light"
@@ -87,27 +85,28 @@
 
           <!--Touts mes skills-->
 
+          <div class="decaller">
+            <div class="langage1 text-white langage skills">
+              <h6>HTML<span class="droite">90%</span></h6>
 
-          <div class="langage1 text-white langage skills">
-            <h6>HTML<span class="droite">90%</span></h6>
+            </div>
+            <div class="langage2 text-white langage skills">
+              <h6>Css<span class="droite1">85%</span></h6>
 
-          </div>
-          <div class="langage2 text-white langage skills">
-            <h6>Css<span class="droite1">85%</span></h6>
+            </div>
+            <div class="langage3 text-white langage skills">
+              <h6>JavaScript<span class="droite2">60%</span></h6>
 
-          </div>
-          <div class="langage3 text-white langage skills">
-            <h6>JavaScript<span class="droite2">60%</span></h6>
+            </div>
+            <div class="langage4 text-white design skills">
+              <h6>PhotoShop<span class="droite3">50%</span></h6>
 
-          </div>
-          <div class="langage4 text-white design skills">
-            <h6>PhotoShop<span class="droite3">50%</span></h6>
+            </div>
+            <div class="langage5 text-white design skills">
 
-          </div>
-          <div class="langage5 text-white design skills">
+              <h6>Illustrator<span class="droite4">70%</span></h6>
 
-            <h6>Illustrator<span class="droite4">70%</span></h6>
-
+            </div>
           </div>
 
         </div>
@@ -163,17 +162,17 @@
         <h4 class="text-white">Our Work</h4>
         <div class="souligne"></div>
       </div>
-      <div class="row bouton text-center">
-        <div class="col-md-3 col-sm-12 text-center">
-          <button type="button" class="btn btn-outline-secondary " id="btn4">All</button>
-        </div>
-        <div class="col-md-3 col-sm-12 text-center">
-          <button type="button" class="btn btn-outline-secondary " id="btn5">Design</button>
-        </div>
-        <div class="col-md-3 col-sm-12 text-center">
-          <button type="button" class="btn btn-outline-secondary " id="btn6">Site</button>
-        </div>
-      </div>
+      
+      <div class="portfolios-boutons">
+                     
+        <button id="btn4">ALL</button>
+
+        <button id="btn5">DESIGN</button>
+
+        <button id="btn6">SITE</button>
+
+     </div>
+    
       <div class="row portfolios">
         <div id="cola" class="col-md-4 col-sm-12 manu site">
           <div class="img1"></div>
@@ -209,14 +208,15 @@
         <div class="col-md-4 col-sm-12 input4">
           <input type="text" class="input1" placeholder="Nom*">
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 input5">
           <input type="text" class="input2" placeholder="E-mail*">
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 input6">
           <input type="text" class="input3" placeholder="Subject*">
         </div>
         <div class="col-md-12">
           <input type="text" class="plainte" placeholder="Message*">
+          
         </div>
         <div class="col-md-4 col-sm-12"></div>
         <div class="col-md-4 col-sm-12"></div>
@@ -230,11 +230,13 @@
   <!--Footer-->
 
   <section class="footer">
-    <h5 class="foot">Jad</h5>
+    <h5 class="foot">
+      <img src="img/logojad.png" alt="logojad1">
+    </h5>
     <div class="container">
       <div class="row">
         <div class="col-4"></div>
-        <div class="col-4 icone">
+        <div class="col-md-4 col-sm-12 icone">
           <a target="_blank" href="http://www.facebook.com"><i class="fab fa-facebook-f fa-2x" id="fcb"></i></a>
           <a target="_blank" href="http://www.twitter.com"><i class="fab fa-twitter fa-2x" id="twit"></i></a>
           <a target="_blank" href="http://www.linkedin.com"><i class="fab fa-linkedin-in fa-2x" id="lin"></i></a>
@@ -251,6 +253,7 @@
   <script src="./node_modules/jquery/dist/jquery.js"></script>
   <script src="./node_modules/bootstrap/js/dist/util.js"></script>
   <script src="./node_modules/bootstrap/js/dist/carousel.js"></script>
+  <script src="./jquery.min.js"></script>
 </body>
 
 </html>

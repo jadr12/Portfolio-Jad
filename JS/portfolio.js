@@ -8,9 +8,12 @@ all1.addEventListener("click",function(){
     
     for ( var i =0; i <tout.length; i++){
         document.querySelectorAll(".manu")[i].style.display = "initial";
-        all1.classList.add('btn-clique1');
-        design1.classList.remove('btn-clique1');
-        site.classList.remove('btn-clique1');
+        all1.style.color="white";
+        all1.style.backgroundColor="#979B9E"
+        design1.style.color="white";
+        design1.style.backgroundColor="#363C42"
+        site.style.color="white";
+        site.style.backgroundColor="#363C42"
        
     }
 })
@@ -26,9 +29,12 @@ design1.addEventListener("click", function () {
        
        if (des[i].classList.contains("design1")) {
           document.querySelectorAll(".manu")[i].style.display="block";
-          all1.classList.remove('btn-clique1');
-          design1.classList.add('btn-clique1');
-          site.classList.remove('btn-clique1');
+          all1.style.color="white";
+          all1.style.backgroundColor="#363C42"
+          design1.style.color="white";
+          design1.style.backgroundColor="#979B9E"
+          site.style.color="white";
+          site.style.backgroundColor="#363C42"
        } 
        else {
           document.querySelectorAll(".manu")[i].style.display="none"; }
@@ -46,12 +52,16 @@ site.addEventListener("click", function () {
        
        if (web[i].classList.contains("site")) {
           document.querySelectorAll(".manu")[i].style.display="block";
-          all1.classList.remove('btn-clique1');
-          design1.classList.remove('btn-clique1');
-          site.classList.add('btn-clique1');
+          all1.style.color="white";
+          all1.style.backgroundColor="#363C42"
+          design1.style.color="white";
+          design1.style.backgroundColor="#363C42";
+          site.style.color="white";
+          site.style.backgroundColor="#979B9E"
        } 
        else {
           document.querySelectorAll(".manu")[i].style.display="none"; }
     }
  })
  
+

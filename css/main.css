@@ -9516,12 +9516,20 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #class1 {
-  padding-top: 20px;
+  padding-top: 30px;
+}
+
+[alt="logojad"] {
+  width: 9%;
+  margin-left: 4%;
 }
 
 header {
-  background-color: black;
   background-size: 100%;
   height: 100vh;
 }
@@ -9530,11 +9538,21 @@ header .row {
   width: 100%;
 }
 
+.boutnav {
+  margin-left: 40%;
+}
+
+.nav-item {
+  margin-left: 40px;
+}
+
 nav {
-  background-color: black;
+  background-color: #363C42;
   position: fixed;
   z-index: 3;
   width: 100%;
+  height: 8%;
+  border-bottom: black 2px solid;
 }
 
 [alt='jad'] {
@@ -9569,8 +9587,69 @@ nav {
   width: 100%;
 }
 
+.portfolios-boutons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 4vh 0;
+}
+
+#btn4 {
+  background-color: #363C42;
+  color: white;
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 6px 10px;
+  outline: none !important;
+}
+
+#btn4:hover {
+  background-color: white;
+  color: #363C42;
+}
+
+#btn5 {
+  background-color: #363C42;
+  color: white;
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 6px 10px;
+  outline: none !important;
+}
+
+#btn5:hover {
+  background-color: white;
+  color: #363C42;
+}
+
+#btn6 {
+  background-color: #363C42;
+  color: white;
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 6px 10px;
+  outline: none !important;
+}
+
+#btn6:hover {
+  background-color: white;
+  color: #363C42;
+}
+
+.diminue {
+  padding-top: 8vh;
+}
+
 .btn-clique {
   background-color: grey;
+  color: white;
 }
 
 #sect {
@@ -9583,8 +9662,8 @@ nav {
   background-image: url("../img/costard.jpg");
   background-size: 120%;
   position: absolute;
-  top: 5vh;
-  left: 10vh;
+  top: 10vh;
+  left: 8vh;
   z-index: 1;
 }
 
@@ -9593,21 +9672,21 @@ nav {
   width: 40vh;
   background-color: grey;
   position: absolute;
-  top: 10vh;
-  left: 5vh;
+  top: 15vh;
+  left: 4vh;
 }
 
 .skills {
-  margin: 35px;
+  margin-bottom: 35px;
 }
 
 .section2 {
   background-color: #343a40;
-  height: 84vh;
+  height: 100vh;
 }
 
 .titre1 {
-  padding-top: 40px;
+  padding-top: 100px;
 }
 
 button {
@@ -9761,6 +9840,7 @@ button {
 
 h6 {
   font-weight: bold;
+  padding-top: 51px;
 }
 
 .img {
@@ -9825,7 +9905,7 @@ h6 {
 
 .section3 {
   background-color: #515355;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -9836,7 +9916,7 @@ h6 {
 }
 
 h4 {
-  padding-top: 70px;
+  padding-top: 125px;
   font-size: 60px;
   font-family: 'Times New Roman', Times, serif;
   width: 100%;
@@ -9920,7 +10000,7 @@ h4 {
 
 .section4 {
   background-color: #343a40;
-  height: 89vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -9933,7 +10013,7 @@ h4 {
 .bouton {
   padding-top: 60px;
   width: 75%;
-  margin-left: 243px;
+  margin-left: 142px;
 }
 
 .portfolios {
@@ -9951,10 +10031,15 @@ h4 {
   height: 20vh;
   background-size: 100%;
   background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
 }
 
 .img1:hover {
-  background-size: 95%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #colz {
@@ -9965,11 +10050,16 @@ h4 {
   background-image: url("../img/portfolio(2).jpeg");
   background-size: 100%;
   background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
   height: 20vh;
 }
 
 .img2:hover {
-  background-size: 95%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #cole {
@@ -9981,10 +10071,15 @@ h4 {
   height: 20vh;
   background-size: 100%;
   background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
 }
 
 .img3:hover {
-  background-size: 95%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #colr {
@@ -9996,10 +10091,15 @@ h4 {
   height: 20vh;
   background-size: 100%;
   background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
 }
 
 .img4:hover {
-  background-size: 95%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #colt {
@@ -10011,10 +10111,15 @@ h4 {
   height: 20vh;
   background-size: 100%;
   background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
 }
 
 .img5:hover {
-  background-size: 95%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #coly {
@@ -10026,10 +10131,15 @@ h4 {
   height: 20vh;
   background-size: 100%;
   background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
 }
 
 .img6:hover {
-  background-size: 95%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .btn-clique1 {
@@ -10110,6 +10220,11 @@ h4 {
   padding-top: 50px;
 }
 
+[alt="logojad1"] {
+  width: 5%;
+  margin-left: 14px;
+}
+
 .footer {
   height: 20vh;
   width: 100%;
@@ -10167,5 +10282,249 @@ a {
 a:hover {
   text-decoration: none;
   color: white;
+}
+
+@media (max-width: 700px) {
+  #class1 {
+    width: 10%;
+    margin-right: 10px;
+  }
+  [alt="logojad"] {
+    width: 15%;
+    margin-left: 4%;
+  }
+  .imgjad1 {
+    height: 47vh;
+    width: 100%;
+    background-image: url("../img/shoot6.jpg");
+    background-size: 117%;
+    background-position-y: 38%;
+    background-position-x: 40%;
+    position: absolute;
+    top: 0vh;
+    left: 0vh;
+    z-index: -1;
+    background-repeat: no-repeat;
+  }
+  .imgjad {
+    height: 45vh;
+    width: 130%;
+    background-image: url("../img/shoot9.jpg");
+    background-size: 113%;
+    background-position-y: 38%;
+    background-position-x: 40%;
+    position: absolute;
+    top: 0vh;
+    left: 0vh;
+    z-index: -1;
+    background-repeat: no-repeat;
+  }
+  .img {
+    height: 47vh;
+    width: 116%;
+    background-image: url("../img/shoot.jpg");
+    background-size: 100%;
+    background-position-y: 38%;
+    background-position-x: 40%;
+    position: absolute;
+    top: 0vh;
+    left: 0vh;
+    z-index: -1;
+    background-repeat: no-repeat;
+  }
+  .black {
+    height: 36.7vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0vh;
+    left: 0vh;
+    z-index: 1;
+  }
+  #section1 {
+    height: 36.6vh;
+  }
+  .col-1-img {
+    height: 40vh !important;
+    width: 25vh !important;
+    background-image: url("../img/costard.jpg");
+    background-size: 120%;
+    position: absolute;
+    top: 5vh;
+    left: 8vh;
+    z-index: 1;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+  }
+  .col-1-back {
+    height: 40vh !important;
+    width: 25vh !important;
+    background-color: grey;
+    position: absolute;
+    top: 10vh;
+    left: 4vh;
+    margin-top: -30px;
+  }
+  .textaboutme {
+    padding-right: 0vh !important;
+    font-size: 10px;
+  }
+  .textaboutme1 {
+    font-size: 10px;
+  }
+  .titre1 {
+    padding-top: 20px;
+    margin-left: 80px;
+  }
+  .section2 {
+    height: 146vh;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #sect {
+    height: 55vh;
+    margin-left: 28px;
+  }
+  .droite {
+    margin-left: 50%;
+  }
+  .droite1 {
+    margin-left: 55%;
+  }
+  .droite2 {
+    margin-left: 40%;
+  }
+  .droite3 {
+    margin-left: 39%;
+  }
+  .droite4 {
+    margin-left: 42%;
+  }
+  .langage5:hover::after {
+    width: 50%;
+  }
+  .langage1:hover::after {
+    width: 70%;
+  }
+  .langage2:hover::after {
+    width: 65%;
+  }
+  .langage3:hover::after {
+    width: 40%;
+  }
+  .langage4:hover::after {
+    width: 30%;
+  }
+  .section3 {
+    height: 155vh;
+  }
+  nav {
+    width: 100%;
+    height: 53px;
+  }
+  #cola {
+    width: 70%;
+  }
+  #colz {
+    width: 70%;
+    padding-top: 15px;
+  }
+  #cole {
+    width: 70%;
+    padding-top: 15px;
+  }
+  #colr {
+    width: 70%;
+    padding-top: 15px;
+  }
+  #colt {
+    width: 70%;
+    padding-top: 15px;
+  }
+  #coly {
+    width: 70%;
+    padding-top: 15px;
+  }
+  .section4 {
+    height: 195vh;
+  }
+  .portfolios {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 5px;
+  }
+  .all1 {
+    margin-left: -290px;
+  }
+  .all2 {
+    margin-left: -170px;
+  }
+  .all3 {
+    margin-left: 207px;
+  }
+  .bouton {
+    margin-left: 159px;
+  }
+  .input1 {
+    background-color: #1B1B1B;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    height: 45px;
+    padding-left: 15px;
+    color: white;
+  }
+  .input2 {
+    background-color: #1B1B1B;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    height: 45px;
+    padding-left: 15px;
+    color: white;
+  }
+  .input3 {
+    background-color: #1B1B1B;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    height: 45px;
+    padding-left: 15px;
+    color: white;
+  }
+  .input5 {
+    padding-top: 15px;
+  }
+  .input6 {
+    padding-top: 15px;
+  }
+  h4 {
+    padding-top: 44px;
+  }
+  .section5 {
+    height: 83vh;
+  }
+  .footer {
+    height: 25vh;
+  }
+  .navigation {
+    margin-left: 10px;
+    display: none;
+  }
+  .skills {
+    margin-bottom: 35px;
+    margin-left: 23px;
+  }
+  [alt="logojad1"] {
+    width: 18%;
+  }
+  body {
+    width: 100%;
+  }
+  .row {
+    margin: 0 !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */
